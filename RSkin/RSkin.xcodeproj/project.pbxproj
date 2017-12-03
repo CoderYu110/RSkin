@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B377C9821FD38C5D0003CE9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9811FD38C5D0003CE9F /* AppDelegate.m */; };
+		B377C9851FD38C5D0003CE9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9841FD38C5D0003CE9F /* ViewController.m */; };
+		B377C9881FD38C5D0003CE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B377C9861FD38C5D0003CE9F /* Main.storyboard */; };
+		B377C98A1FD38C5D0003CE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B377C9891FD38C5D0003CE9F /* Assets.xcassets */; };
+		B377C98D1FD38C5D0003CE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B377C98B1FD38C5D0003CE9F /* LaunchScreen.storyboard */; };
+		B377C9901FD38C5D0003CE9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C98F1FD38C5D0003CE9F /* main.m */; };
+		B377C99A1FD38C5D0003CE9F /* RSkinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9991FD38C5D0003CE9F /* RSkinTests.m */; };
+		B377C9A51FD38C5D0003CE9F /* RSkinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9A41FD38C5D0003CE9F /* RSkinUITests.m */; };
+		B377C9D91FD38C700003CE9F /* NotifyDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9B31FD38C700003CE9F /* NotifyDealloc.m */; };
+		B377CA0F1FD38FFB0003CE9F /* UITabBarItem+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9EC1FD38FFB0003CE9F /* UITabBarItem+Skin.m */; };
+		B377CA101FD38FFB0003CE9F /* UITextView+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9ED1FD38FFB0003CE9F /* UITextView+Skin.m */; };
+		B377CA111FD38FFB0003CE9F /* UIView+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9F31FD38FFB0003CE9F /* UIView+Skin.m */; };
+		B377CA121FD38FFB0003CE9F /* CALayer+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9F41FD38FFB0003CE9F /* CALayer+Skin.m */; };
+		B377CA131FD38FFB0003CE9F /* SkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9F51FD38FFB0003CE9F /* SkinManager.m */; };
+		B377CA141FD38FFB0003CE9F /* SkinPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9F61FD38FFB0003CE9F /* SkinPicker.m */; };
+		B377CA151FD38FFB0003CE9F /* skinConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = B377C9F71FD38FFB0003CE9F /* skinConfig.json */; };
+		B377CA161FD38FFB0003CE9F /* NSObject+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9FB1FD38FFB0003CE9F /* NSObject+Skin.m */; };
+		B377CA171FD38FFB0003CE9F /* UIBarItem+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9FD1FD38FFB0003CE9F /* UIBarItem+Skin.m */; };
+		B377CA181FD38FFB0003CE9F /* CAShapeLayer+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9FE1FD38FFB0003CE9F /* CAShapeLayer+Skin.m */; };
+		B377CA191FD38FFB0003CE9F /* UITextField+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9FF1FD38FFB0003CE9F /* UITextField+Skin.m */; };
+		B377CA1A1FD38FFB0003CE9F /* UINavigationBar+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377CA031FD38FFB0003CE9F /* UINavigationBar+Skin.m */; };
+		B377CA1B1FD38FFB0003CE9F /* UITableView+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377CA041FD38FFB0003CE9F /* UITableView+Skin.m */; };
+		B377CA1C1FD38FFB0003CE9F /* UIApplication+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377CA051FD38FFB0003CE9F /* UIApplication+Skin.m */; };
+		B377CA1D1FD38FFB0003CE9F /* UIImageView+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377CA061FD38FFB0003CE9F /* UIImageView+Skin.m */; };
+		B377CA1E1FD38FFB0003CE9F /* UILabel+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377CA0C1FD38FFB0003CE9F /* UILabel+Skin.m */; };
+		B377CA1F1FD38FFB0003CE9F /* UIButton+Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = B377CA0E1FD38FFB0003CE9F /* UIButton+Skin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B377C9961FD38C5D0003CE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B377C9751FD38C5D0003CE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B377C97C1FD38C5D0003CE9F;
+			remoteInfo = RSkin;
+		};
+		B377C9A11FD38C5D0003CE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B377C9751FD38C5D0003CE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B377C97C1FD38C5D0003CE9F;
+			remoteInfo = RSkin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B377C97D1FD38C5D0003CE9F /* RSkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377C9801FD38C5D0003CE9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B377C9811FD38C5D0003CE9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B377C9831FD38C5D0003CE9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B377C9841FD38C5D0003CE9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B377C9871FD38C5D0003CE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B377C9891FD38C5D0003CE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B377C98C1FD38C5D0003CE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B377C98E1FD38C5D0003CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377C98F1FD38C5D0003CE9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B377C9951FD38C5D0003CE9F /* RSkinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSkinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377C9991FD38C5D0003CE9F /* RSkinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSkinTests.m; sourceTree = "<group>"; };
+		B377C99B1FD38C5D0003CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377C9A01FD38C5D0003CE9F /* RSkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSkinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377C9A41FD38C5D0003CE9F /* RSkinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSkinUITests.m; sourceTree = "<group>"; };
+		B377C9A61FD38C5D0003CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377C9B31FD38C700003CE9F /* NotifyDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyDealloc.m; sourceTree = "<group>"; };
+		B377C9B41FD38C700003CE9F /* NotifyDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyDealloc.h; sourceTree = "<group>"; };
+		B377C9EC1FD38FFB0003CE9F /* UITabBarItem+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Skin.m"; sourceTree = "<group>"; };
+		B377C9ED1FD38FFB0003CE9F /* UITextView+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Skin.m"; sourceTree = "<group>"; };
+		B377C9EE1FD38FFB0003CE9F /* UITextField+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Skin.h"; sourceTree = "<group>"; };
+		B377C9EF1FD38FFB0003CE9F /* CAShapeLayer+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Skin.h"; sourceTree = "<group>"; };
+		B377C9F01FD38FFB0003CE9F /* UIApplication+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Skin.h"; sourceTree = "<group>"; };
+		B377C9F11FD38FFB0003CE9F /* UITableView+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Skin.h"; sourceTree = "<group>"; };
+		B377C9F21FD38FFB0003CE9F /* UINavigationBar+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Skin.h"; sourceTree = "<group>"; };
+		B377C9F31FD38FFB0003CE9F /* UIView+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Skin.m"; sourceTree = "<group>"; };
+		B377C9F41FD38FFB0003CE9F /* CALayer+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Skin.m"; sourceTree = "<group>"; };
+		B377C9F51FD38FFB0003CE9F /* SkinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinManager.m; sourceTree = "<group>"; };
+		B377C9F61FD38FFB0003CE9F /* SkinPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinPicker.m; sourceTree = "<group>"; };
+		B377C9F71FD38FFB0003CE9F /* skinConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skinConfig.json; sourceTree = "<group>"; };
+		B377C9F81FD38FFB0003CE9F /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		B377C9F91FD38FFB0003CE9F /* UIImageView+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Skin.h"; sourceTree = "<group>"; };
+		B377C9FA1FD38FFB0003CE9F /* UIButton+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Skin.h"; sourceTree = "<group>"; };
+		B377C9FB1FD38FFB0003CE9F /* NSObject+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Skin.m"; sourceTree = "<group>"; };
+		B377C9FC1FD38FFB0003CE9F /* UILabel+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Skin.h"; sourceTree = "<group>"; };
+		B377C9FD1FD38FFB0003CE9F /* UIBarItem+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+Skin.m"; sourceTree = "<group>"; };
+		B377C9FE1FD38FFB0003CE9F /* CAShapeLayer+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Skin.m"; sourceTree = "<group>"; };
+		B377C9FF1FD38FFB0003CE9F /* UITextField+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Skin.m"; sourceTree = "<group>"; };
+		B377CA001FD38FFB0003CE9F /* UITextView+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Skin.h"; sourceTree = "<group>"; };
+		B377CA011FD38FFB0003CE9F /* UITabBarItem+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Skin.h"; sourceTree = "<group>"; };
+		B377CA021FD38FFB0003CE9F /* UIView+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Skin.h"; sourceTree = "<group>"; };
+		B377CA031FD38FFB0003CE9F /* UINavigationBar+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Skin.m"; sourceTree = "<group>"; };
+		B377CA041FD38FFB0003CE9F /* UITableView+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Skin.m"; sourceTree = "<group>"; };
+		B377CA051FD38FFB0003CE9F /* UIApplication+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Skin.m"; sourceTree = "<group>"; };
+		B377CA061FD38FFB0003CE9F /* UIImageView+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Skin.m"; sourceTree = "<group>"; };
+		B377CA071FD38FFB0003CE9F /* SkinPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinPicker.h; sourceTree = "<group>"; };
+		B377CA081FD38FFB0003CE9F /* SkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinManager.h; sourceTree = "<group>"; };
+		B377CA091FD38FFB0003CE9F /* RSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSkin.h; sourceTree = "<group>"; };
+		B377CA0A1FD38FFB0003CE9F /* CALayer+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Skin.h"; sourceTree = "<group>"; };
+		B377CA0B1FD38FFB0003CE9F /* UIBarItem+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+Skin.h"; sourceTree = "<group>"; };
+		B377CA0C1FD38FFB0003CE9F /* UILabel+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Skin.m"; sourceTree = "<group>"; };
+		B377CA0D1FD38FFB0003CE9F /* NSObject+Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Skin.h"; sourceTree = "<group>"; };
+		B377CA0E1FD38FFB0003CE9F /* UIButton+Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Skin.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B377C97A1FD38C5D0003CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C9921FD38C5D0003CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C99D1FD38C5D0003CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B377C9741FD38C5D0003CE9F = {
+			isa = PBXGroup;
+			children = (
+				B377C97F1FD38C5D0003CE9F /* RSkin */,
+				B377C9981FD38C5D0003CE9F /* RSkinTests */,
+				B377C9A31FD38C5D0003CE9F /* RSkinUITests */,
+				B377C97E1FD38C5D0003CE9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B377C97E1FD38C5D0003CE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B377C97D1FD38C5D0003CE9F /* RSkin.app */,
+				B377C9951FD38C5D0003CE9F /* RSkinTests.xctest */,
+				B377C9A01FD38C5D0003CE9F /* RSkinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B377C97F1FD38C5D0003CE9F /* RSkin */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9EB1FD38FFB0003CE9F /* SkinManager */,
+				B377C9B21FD38C700003CE9F /* NotifyDelloc */,
+				B377C9801FD38C5D0003CE9F /* AppDelegate.h */,
+				B377C9811FD38C5D0003CE9F /* AppDelegate.m */,
+				B377C9831FD38C5D0003CE9F /* ViewController.h */,
+				B377C9841FD38C5D0003CE9F /* ViewController.m */,
+				B377C9861FD38C5D0003CE9F /* Main.storyboard */,
+				B377C9891FD38C5D0003CE9F /* Assets.xcassets */,
+				B377C98B1FD38C5D0003CE9F /* LaunchScreen.storyboard */,
+				B377C98E1FD38C5D0003CE9F /* Info.plist */,
+				B377C98F1FD38C5D0003CE9F /* main.m */,
+			);
+			path = RSkin;
+			sourceTree = "<group>";
+		};
+		B377C9981FD38C5D0003CE9F /* RSkinTests */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9991FD38C5D0003CE9F /* RSkinTests.m */,
+				B377C99B1FD38C5D0003CE9F /* Info.plist */,
+			);
+			path = RSkinTests;
+			sourceTree = "<group>";
+		};
+		B377C9A31FD38C5D0003CE9F /* RSkinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9A41FD38C5D0003CE9F /* RSkinUITests.m */,
+				B377C9A61FD38C5D0003CE9F /* Info.plist */,
+			);
+			path = RSkinUITests;
+			sourceTree = "<group>";
+		};
+		B377C9B21FD38C700003CE9F /* NotifyDelloc */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9B31FD38C700003CE9F /* NotifyDealloc.m */,
+				B377C9B41FD38C700003CE9F /* NotifyDealloc.h */,
+			);
+			path = NotifyDelloc;
+			sourceTree = "<group>";
+		};
+		B377C9EB1FD38FFB0003CE9F /* SkinManager */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9EC1FD38FFB0003CE9F /* UITabBarItem+Skin.m */,
+				B377C9ED1FD38FFB0003CE9F /* UITextView+Skin.m */,
+				B377C9EE1FD38FFB0003CE9F /* UITextField+Skin.h */,
+				B377C9EF1FD38FFB0003CE9F /* CAShapeLayer+Skin.h */,
+				B377C9F01FD38FFB0003CE9F /* UIApplication+Skin.h */,
+				B377C9F11FD38FFB0003CE9F /* UITableView+Skin.h */,
+				B377C9F21FD38FFB0003CE9F /* UINavigationBar+Skin.h */,
+				B377C9F31FD38FFB0003CE9F /* UIView+Skin.m */,
+				B377C9F41FD38FFB0003CE9F /* CALayer+Skin.m */,
+				B377C9F51FD38FFB0003CE9F /* SkinManager.m */,
+				B377C9F61FD38FFB0003CE9F /* SkinPicker.m */,
+				B377C9F71FD38FFB0003CE9F /* skinConfig.json */,
+				B377C9F81FD38FFB0003CE9F /* Constant.h */,
+				B377C9F91FD38FFB0003CE9F /* UIImageView+Skin.h */,
+				B377C9FA1FD38FFB0003CE9F /* UIButton+Skin.h */,
+				B377C9FB1FD38FFB0003CE9F /* NSObject+Skin.m */,
+				B377C9FC1FD38FFB0003CE9F /* UILabel+Skin.h */,
+				B377C9FD1FD38FFB0003CE9F /* UIBarItem+Skin.m */,
+				B377C9FE1FD38FFB0003CE9F /* CAShapeLayer+Skin.m */,
+				B377C9FF1FD38FFB0003CE9F /* UITextField+Skin.m */,
+				B377CA001FD38FFB0003CE9F /* UITextView+Skin.h */,
+				B377CA011FD38FFB0003CE9F /* UITabBarItem+Skin.h */,
+				B377CA021FD38FFB0003CE9F /* UIView+Skin.h */,
+				B377CA031FD38FFB0003CE9F /* UINavigationBar+Skin.m */,
+				B377CA041FD38FFB0003CE9F /* UITableView+Skin.m */,
+				B377CA051FD38FFB0003CE9F /* UIApplication+Skin.m */,
+				B377CA061FD38FFB0003CE9F /* UIImageView+Skin.m */,
+				B377CA071FD38FFB0003CE9F /* SkinPicker.h */,
+				B377CA081FD38FFB0003CE9F /* SkinManager.h */,
+				B377CA091FD38FFB0003CE9F /* RSkin.h */,
+				B377CA0A1FD38FFB0003CE9F /* CALayer+Skin.h */,
+				B377CA0B1FD38FFB0003CE9F /* UIBarItem+Skin.h */,
+				B377CA0C1FD38FFB0003CE9F /* UILabel+Skin.m */,
+				B377CA0D1FD38FFB0003CE9F /* NSObject+Skin.h */,
+				B377CA0E1FD38FFB0003CE9F /* UIButton+Skin.m */,
+			);
+			path = SkinManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B377C97C1FD38C5D0003CE9F /* RSkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377C9A91FD38C5D0003CE9F /* Build configuration list for PBXNativeTarget "RSkin" */;
+			buildPhases = (
+				B377C9791FD38C5D0003CE9F /* Sources */,
+				B377C97A1FD38C5D0003CE9F /* Frameworks */,
+				B377C97B1FD38C5D0003CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSkin;
+			productName = RSkin;
+			productReference = B377C97D1FD38C5D0003CE9F /* RSkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B377C9941FD38C5D0003CE9F /* RSkinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377C9AC1FD38C5D0003CE9F /* Build configuration list for PBXNativeTarget "RSkinTests" */;
+			buildPhases = (
+				B377C9911FD38C5D0003CE9F /* Sources */,
+				B377C9921FD38C5D0003CE9F /* Frameworks */,
+				B377C9931FD38C5D0003CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B377C9971FD38C5D0003CE9F /* PBXTargetDependency */,
+			);
+			name = RSkinTests;
+			productName = RSkinTests;
+			productReference = B377C9951FD38C5D0003CE9F /* RSkinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B377C99F1FD38C5D0003CE9F /* RSkinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377C9AF1FD38C5D0003CE9F /* Build configuration list for PBXNativeTarget "RSkinUITests" */;
+			buildPhases = (
+				B377C99C1FD38C5D0003CE9F /* Sources */,
+				B377C99D1FD38C5D0003CE9F /* Frameworks */,
+				B377C99E1FD38C5D0003CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B377C9A21FD38C5D0003CE9F /* PBXTargetDependency */,
+			);
+			name = RSkinUITests;
+			productName = RSkinUITests;
+			productReference = B377C9A01FD38C5D0003CE9F /* RSkinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B377C9751FD38C5D0003CE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = rui;
+				TargetAttributes = {
+					B377C97C1FD38C5D0003CE9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B377C9941FD38C5D0003CE9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B377C97C1FD38C5D0003CE9F;
+					};
+					B377C99F1FD38C5D0003CE9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B377C97C1FD38C5D0003CE9F;
+					};
+				};
+			};
+			buildConfigurationList = B377C9781FD38C5D0003CE9F /* Build configuration list for PBXProject "RSkin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B377C9741FD38C5D0003CE9F;
+			productRefGroup = B377C97E1FD38C5D0003CE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B377C97C1FD38C5D0003CE9F /* RSkin */,
+				B377C9941FD38C5D0003CE9F /* RSkinTests */,
+				B377C99F1FD38C5D0003CE9F /* RSkinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B377C97B1FD38C5D0003CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C98D1FD38C5D0003CE9F /* LaunchScreen.storyboard in Resources */,
+				B377C98A1FD38C5D0003CE9F /* Assets.xcassets in Resources */,
+				B377CA151FD38FFB0003CE9F /* skinConfig.json in Resources */,
+				B377C9881FD38C5D0003CE9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C9931FD38C5D0003CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C99E1FD38C5D0003CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B377C9791FD38C5D0003CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377CA0F1FD38FFB0003CE9F /* UITabBarItem+Skin.m in Sources */,
+				B377CA171FD38FFB0003CE9F /* UIBarItem+Skin.m in Sources */,
+				B377C9851FD38C5D0003CE9F /* ViewController.m in Sources */,
+				B377CA121FD38FFB0003CE9F /* CALayer+Skin.m in Sources */,
+				B377CA1F1FD38FFB0003CE9F /* UIButton+Skin.m in Sources */,
+				B377CA1A1FD38FFB0003CE9F /* UINavigationBar+Skin.m in Sources */,
+				B377CA131FD38FFB0003CE9F /* SkinManager.m in Sources */,
+				B377CA141FD38FFB0003CE9F /* SkinPicker.m in Sources */,
+				B377CA191FD38FFB0003CE9F /* UITextField+Skin.m in Sources */,
+				B377C9901FD38C5D0003CE9F /* main.m in Sources */,
+				B377CA111FD38FFB0003CE9F /* UIView+Skin.m in Sources */,
+				B377CA181FD38FFB0003CE9F /* CAShapeLayer+Skin.m in Sources */,
+				B377CA1C1FD38FFB0003CE9F /* UIApplication+Skin.m in Sources */,
+				B377CA161FD38FFB0003CE9F /* NSObject+Skin.m in Sources */,
+				B377C9821FD38C5D0003CE9F /* AppDelegate.m in Sources */,
+				B377CA101FD38FFB0003CE9F /* UITextView+Skin.m in Sources */,
+				B377CA1D1FD38FFB0003CE9F /* UIImageView+Skin.m in Sources */,
+				B377CA1B1FD38FFB0003CE9F /* UITableView+Skin.m in Sources */,
+				B377CA1E1FD38FFB0003CE9F /* UILabel+Skin.m in Sources */,
+				B377C9D91FD38C700003CE9F /* NotifyDealloc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C9911FD38C5D0003CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C99A1FD38C5D0003CE9F /* RSkinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C99C1FD38C5D0003CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C9A51FD38C5D0003CE9F /* RSkinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B377C9971FD38C5D0003CE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B377C97C1FD38C5D0003CE9F /* RSkin */;
+			targetProxy = B377C9961FD38C5D0003CE9F /* PBXContainerItemProxy */;
+		};
+		B377C9A21FD38C5D0003CE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B377C97C1FD38C5D0003CE9F /* RSkin */;
+			targetProxy = B377C9A11FD38C5D0003CE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B377C9861FD38C5D0003CE9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B377C9871FD38C5D0003CE9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B377C98B1FD38C5D0003CE9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B377C98C1FD38C5D0003CE9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B377C9A71FD38C5D0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B377C9A81FD38C5D0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B377C9AA1FD38C5D0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATLM62N4EW;
+				INFOPLIST_FILE = RSkin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RSkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B377C9AB1FD38C5D0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATLM62N4EW;
+				INFOPLIST_FILE = RSkin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RSkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B377C9AD1FD38C5D0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSkinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RSkinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSkin.app/RSkin";
+			};
+			name = Debug;
+		};
+		B377C9AE1FD38C5D0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSkinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RSkinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSkin.app/RSkin";
+			};
+			name = Release;
+		};
+		B377C9B01FD38C5D0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSkinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RSkinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSkin;
+			};
+			name = Debug;
+		};
+		B377C9B11FD38C5D0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSkinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RSkinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSkin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B377C9781FD38C5D0003CE9F /* Build configuration list for PBXProject "RSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C9A71FD38C5D0003CE9F /* Debug */,
+				B377C9A81FD38C5D0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377C9A91FD38C5D0003CE9F /* Build configuration list for PBXNativeTarget "RSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C9AA1FD38C5D0003CE9F /* Debug */,
+				B377C9AB1FD38C5D0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377C9AC1FD38C5D0003CE9F /* Build configuration list for PBXNativeTarget "RSkinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C9AD1FD38C5D0003CE9F /* Debug */,
+				B377C9AE1FD38C5D0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377C9AF1FD38C5D0003CE9F /* Build configuration list for PBXNativeTarget "RSkinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C9B01FD38C5D0003CE9F /* Debug */,
+				B377C9B11FD38C5D0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B377C9751FD38C5D0003CE9F /* Project object */;
+}

@@ -1,0 +1,15 @@
+//
+//  UITableView+Skin.h
+//  HyCurrency
+//
+//  Created by rui on 2017/7/4.
+//  Copyright © 2017年 ---. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UITableView (Skin)
+
+@property (copy, nonatomic) IBInspectable NSString *r_separatorColor;
+
+@end

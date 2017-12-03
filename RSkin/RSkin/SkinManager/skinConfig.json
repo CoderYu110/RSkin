@@ -1,0 +1,37 @@
+{
+	"modes":["day","night"],
+	"colors":{
+		"mainColor":{"day":"f0f0f0","night":"252021"},
+		"mainColor2":{"day":"fdfcfc","night":"160509"},
+        "mainColor3":{"day":"ffffff","night":"252021"},
+		"textColor":{"day":"342c2a","night":"ffffff"},
+		"textColor2":{"day":"000000","night":"ffffff"},
+		"textColor3":{"day":"ffffff","night":"000000"},
+		"textColor4":{"day":"000000","night":"f0f0f0"},
+		"textColor5":{"day":"545150","night":"ffffff"},
+		"naviCodeColor":{"day":"ffffff","night":"878182"},
+		"colorM5":{"day":"3e3735","night":"fefefe"},
+		"alertColor":{"day":"342c2a","night":"f54949"},
+		"minuteLineColor":{"day":"3e3735","night":"ffffff"},
+		"indicatorColor":{"day":"f54949","night":"fefefe"},
+		"inputTitleColor":{"day":"3e3a3b","night":"f2f0f1"},
+		"placeholderColor":{"day":"a5a5a5","night":"3E3A3B"},
+		"klineGrayColor":{"day":"6c6665","night":"bfbfbf"},
+		"klineDetailBottomColor":{"day":"f54949","night":"ffffff"},
+		"separatorColor":{"day":"","night":""},
+        "pushesVerticalLine":{"day":"252021","night":"f0f0f0"},
+        "navigationBar":{"day":"f54949","night":"160509"},
+        "accountColor":{"day":"fef7f5", "night":"000000"},
+        "tableHeaderColor":{"day":"f0f0f0", "night":"252021"},
+        "dorangenblack":{"day":"f54949", "night":"160509"},
+        "minesepcolor":{"day":"e5e5e5", "night":"878182"},
+        "quickcontentColor":{"day":"545150", "night":"b8b4b5"},
+        "dorangenpureblack":{"day":"f54949", "night":"000000"},
+        "dorangengrayseparator":{"day":"f54949", "night":"847e7f"},
+        "df0f0f0n000000":{"day":"f0f0f0", "night":"000000"},
+        "df5f3f3n000000":{"day":"f5f3f3", "night":"000000"}
+	},
+	"images":{
+		"name":"fa"
+	}
+}
